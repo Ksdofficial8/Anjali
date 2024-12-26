@@ -1066,7 +1066,7 @@ async def stream_audio_or_video(client, message):
                 duration_x = "Unknown Mins"
             try:
                 views = result["viewCount"]["short"]
-            except Exception:<
+            except Exception:
                 views = "Unknown Views"
             try:
                 channel = result["channel"]["name"]
