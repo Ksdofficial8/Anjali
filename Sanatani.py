@@ -82,12 +82,12 @@ if os.path.exists("Config.env"):
 
 API_ID = int(getenv("API_ID", "16457832"))
 API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
-BOT_TOKEN = getenv("BOT_TOKEN", "7341956587:AAEExbpr-U69Ncb6Pvp4guz-bNFgBMQtoME")
-STRING_SESSION = getenv("STRING_SESSION", "BQGV228ACV8QkqqOPePVWjymPlMQa70ISY-ZH4UKxNRi-wsV7nLeNum4mHf5E4moYwdAJ8QBCP6DgJ1XGfdA-J86nsBjgBcTIvBYwaUF0nC0IcqTtjQwZb14H_YCAKzYUyA3HbUP8kESK8cIAJh1w6T-KorFff_WmVECStrrM-Hu8K24Zbg--p4FqNac1lUsjOaQsZP1OX2sU46CDJvg74k-s-3B8-xOd0HRYDo57j4rcv-UgB_OXOSi2-exw-Ma-CaDQrxpnzaHh-DhFN1y04-Bc4-5bukKQoTKJ29oEf9DSjpwFsSPB00u7ekXMobWZjQfxa17_6Kro_AgpzrzO1dS7xqvRAAAAAF7cTpGAA")
+BOT_TOKEN = getenv("BOT_TOKEN", "7582069232:AAGUICfeek1RUHU17qCEOyUGF6uQbG9ytSI")
+STRING_SESSION = getenv("STRING_SESSION", "BQGV228Av4VhDp9X_-uECtD_oCJaGM0S43rITznD0YBgrSp6YJ0E_b-Zezr300oTRHHFoPVki5FtFj0RFbB-MFO4oPAivQ8fam8qp97Gko99EVc28W8-R_2DtJu-Uhl0Jq0rnTvq9r4v0HM-GKCVZHSUubMUftup4He8ATJaCHsmn3XFVDfpx_Txezo3JTNx3tAc5SXaO40oUSZAS_Py_Rx5-Rf_yGpDBn86VV2GGB6Aq3BFoVT0XWMWGuTlrCrU_0z90EOTZkcaeRDRy53NxnNhRUA9z4xj-_wPh-qfvRIYXuZTLJjSwYHPBWecdiin9hhfhD-pCinzgBdu1kc3rcC1lgpWHQAAAAHRlyWXAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-OWNER_ID = int(getenv("OWNER_ID", "8009369344"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002464403548"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
+OWNER_ID = int(getenv("OWNER_ID", "6888783488"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002394353969"))
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/te3jxi.jpg")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
 
@@ -263,7 +263,7 @@ def _netcat(host, port, content):
 
 async def paste_queue(content):
     loop = asyncio.get_running_loop()
-    link = await loop.run_in_executor(None, partial(_netcat, "ezup.dev", 9999, content))
+    link = await loop   .run_in_executor(None, partial(_netcat, "ezup.dev", 9999, content))
     return link
 
 
@@ -352,11 +352,11 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/DtmSupport86")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/riya_network"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/legends_again")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Stylish_Name_ProfileDp"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Stylish_Name_ProfileDp")
         ],
         [
             InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="back_to_home")
@@ -377,7 +377,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼](https://t.me/sommusic7_bot) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [˹ᴀɴᴊᴀʟɪ ꭙ мᴜѕɪᴄ˼ 🥂](https://t.me/anjalixmusicbot) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -392,9 +392,9 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/RIYA_NETWORK)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/Stylish_Name_ProfileDp)**"""
 
-HELP_X = """˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼
+HELP_X = """˹ᴀɴᴊᴀʟɪ ꭙ мᴜѕɪᴄ˼ 🥂
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -408,7 +408,7 @@ HELP_X = """˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/RIYA_NETWORK)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/Stylish_Name_ProfileDp)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("KOUSHAL_SONKAR"))
@@ -452,7 +452,7 @@ async def start_message_private(client, message):
         await asyncio.sleep(1)  # Wait for 2 seconds before deletion
         await baby.delete()
 
-        caption = f"""╭───────────────────⦿\n│❍  ʜᴇʏ {mention} \n│❍  ɪ ᴀᴍ ˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼𓆩♡𓆪⁩ \n├───────────────────⦿\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs \n├───────────────────⦿\n│❍  ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ\n│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs\n│❍ l ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ \n│❍  ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ \n│❍  ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs \n│❍  24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ \n├───────────────────⦿\n│❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ\n│   ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs\n│❍ 𝖯ᴏᴡᴇʀᴇᴅ 𝖡ʏ » <a href=t.me/RIYA_network>тҽαɱ ɾιყα</a></b>\n<b>╰───────────────────⦿"""
+        caption = f"""╭───────────────────⦿\n│❍  ʜᴇʏ {mention} \n│❍  ɪ ᴀᴍ ˹ᴀɴᴊᴀʟɪ ꭙ мᴜѕɪᴄ˼ 🥂⁩ \n├───────────────────⦿\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs \n├───────────────────⦿\n│❍  ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ\n│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs\n│❍ l ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ \n│❍  ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ \n│❍  ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs \n│❍  24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ \n├───────────────────⦿\n│❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ\n│   ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs\n│❍ 𝖯ᴏᴡᴇʀᴇᴅ 𝖡ʏ » <a href=t.me/Stylish_Name_ProfileDp>тҽαɱ αɳʝαℓι</a></b>\n<b>╰───────────────────⦿"""
 
         buttons = InlineKeyboardMarkup(
             inline_keyboard=[
@@ -526,7 +526,7 @@ async def help(client: Client, message: Message):
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
     mention = query.from_user.mention
-    caption = f"""╭───────────────────⦿\n│❍  ʜᴇʏ {mention} \n│❍  ɪ ᴀᴍ ˹ɴɪᴋᴋɪ ꭙ ᴍᴜsɪᴄ˼𓆩♡𓆪⁩ \n├───────────────────⦿\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs \n├───────────────────⦿\n│❍  ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ\n│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs\n│❍ l ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ \n│❍  ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ \n│❍  ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs \n│❍  24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ \n├───────────────────⦿\n│❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ\n│   ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs\n│❍ 𝖯ᴏᴡᴇʀᴇᴅ 𝖡ʏ » <a href=t.me/RIYA_network>тҽαɱ ɾιყα</a></b>\n<b>╰───────────────────⦿"""
+    caption = f"""╭───────────────────⦿\n│❍  ʜᴇʏ {mention} \n│❍  ɪ ᴀᴍ ˹ᴀɴᴊᴀʟɪ ꭙ мᴜѕɪᴄ˼ 🥂⁩ \n├───────────────────⦿\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs \n├───────────────────⦿\n│❍  ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ\n│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs\n│❍ l ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ \n│❍  ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ \n│❍  ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs \n│❍  24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ \n├───────────────────⦿\n│❍ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ\n│   ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs\n│❍ 𝖯ᴏᴡᴇʀᴇᴅ 𝖡ʏ » <a href=t.me/Stylish_Name_ProfileDp>тҽαɱ αɳʝαℓι</a></b>\n<b>╰───────────────────⦿"""
 
     buttons = InlineKeyboardMarkup(
         inline_keyboard=[
@@ -909,15 +909,15 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""❍ <b>Sᴛʀᴇᴀᴍɪɴɢ Sᴛᴀʀᴛᴇᴅ </b>\n\n<b>❍ Tɪᴛʟᴇ :</b> <a href={0}>{title}</a>\n<b>❍ Dᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {requested_by}\n\n**❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα꯭](https://t.me/RIYA_network)**"""
+    caption = f"""❍ <b>Sᴛʀᴇᴀᴍɪɴɢ Sᴛᴀʀᴛᴇᴅ </b>\n\n<b>❍ Tɪᴛʟᴇ :</b> <a href={0}>{title}</a>\n<b>❍ Dᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {requested_by}\n\n**❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ αɳʝαℓι](https://t.me/Stylish_Name_ProfileDp)**"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/riya_network"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Stylish_Name_ProfileDp"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/DtmSupport86"
             )
         ],
         [
@@ -1015,10 +1015,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/riya_network"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Stylish_Name_ProfileDp"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/DtmSupport86"
             )
         ],
         [
@@ -1066,7 +1066,7 @@ async def stream_audio_or_video(client, message):
                 duration_x = "Unknown Mins"
             try:
                 views = result["viewCount"]["short"]
-            except Exception:
+            except Exception:<
                 views = "Unknown Views"
             try:
                 channel = result["channel"]["name"]
@@ -1094,10 +1094,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/riya_network"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/Stylish_Name_ProfileDp"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/riya_chat_support"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/DtmSupport86"
             )
         ],
         [
@@ -1231,7 +1231,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""❍ <b>Sᴛʀᴇᴀᴍɪɴɢ Sᴛᴀʀᴛᴇᴅ </b>\n\n<b>❍ Tɪᴛʟᴇ :</b> <a href={0}>{title}</a>\n<b>❍ Dᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {requested_by}\n\n**❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα꯭](https://t.me/RIYA_network)**"""
+                caption = f"""❍ <b>Sᴛʀᴇᴀᴍɪɴɢ Sᴛᴀʀᴛᴇᴅ </b>\n\n<b>❍ Tɪᴛʟᴇ :</b> <a href={0}>{title}</a>\n<b>❍ Dᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {requested_by}\n\n**❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ αɳʝαℓι](https://t.me/Stylish_Name_ProfileDp)**"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1421,7 +1421,7 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/riya_chat_support"
+                url="https://t.me/DtmSupport86"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
